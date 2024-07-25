@@ -1,0 +1,192 @@
+/* first page */
+.navbarB {
+  position: absolute;
+}
+.firstpageB {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+
+  background: url(../../../../public/photoGallery/businessland.svg);
+  background-size: cover;
+  font-weight: 700;
+}
+#quoteB {
+  color: white;
+  position: sticky;
+  top: 2vh;
+}
+.backmountB {
+  color: orange;
+  font-size: 1.3em;
+  text-shadow: -7px -5px 2px rgb(0, 0, 0);
+  animation: sizechange 8s infinite linear;
+
+}
+@keyframes sizechange {
+  0% {
+ font-size: 1.3em;
+  }
+  50% {
+    
+ font-size: 1.5em;
+  }
+  100% {
+   font-size: 1.3em;
+  }
+}
+.working {
+  padding: 30px;
+}
+/* second page */
+.secondPageB {
+  background-color: rgb(41, 11, 0);
+  position: relative;
+}
+/* .layer{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: blue;
+} */
+.secondPageB img {
+  width: 100vw;
+  animation: updown 3s infinite linear;
+}
+@keyframes updown {
+  0%, 100% {
+    transform: translateY(0); /* Start and end positions */
+  }
+  50% {
+    transform: translateY(-20px); /* Middle position, moving up */
+  }
+}
+
+.priorityB {
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #913e03;
+  width: 100vw;
+  gap: 5vh;
+}
+.priorityBhead {
+  color: #fff;
+  text-align: center;
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.625rem; /* 138.095% */
+  text-transform: capitalize;
+}
+
+.priorityBhead span{
+  color: rgb(168, 168, 164);
+ animation: flicker 5s infinite;
+}
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+.priorityCon {
+  display: flex;
+  gap: 50px;
+}
+.imgfl {
+  position: absolute;
+  bottom: -25px;
+  display: flex;
+  gap: 50px;
+}
+.flower1B {
+  animation: shake 10s infinite linear;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(-30deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  75% {
+    transform: rotate(-40deg);
+  }
+  100% {
+    transform: rotate(-30deg);
+  }
+}
+.linkReg{
+  z-index: 1000;
+  position: absolute;
+  top: 70vh;
+  left: 45vw;
+  text-decoration: none;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+  background-color: rgba(136, 15, 128, 0.558);
+}
+/* 
+
+.front {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.businessImg {
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    overflow-x: hidden;
+}
+
+
+
+.FrontText {
+    position: absolute;
+    top: 40vh;
+    font-size:5em;
+    font-weight: 200;
+    text-decoration: underline;
+    text-shadow: -10px -10px 5px rgb(112, 112, 112);
+    
+}
+
+.TypedText {
+    height: 60vh;
+    position: relative;
+    background: linear-gradient(90deg, rgb(24, 1, 108) 0%, rgba(22, 74, 116, 0.97) 28%, rgb(7, 6, 5) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.TypedText h1 {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.TypedText .typedWords {
+    padding-top: 20px;
+    font-size: 50px;
+    color: rgb(0, 153, 255);
+}
+ */

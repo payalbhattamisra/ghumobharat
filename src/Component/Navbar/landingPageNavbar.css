@@ -1,0 +1,85 @@
+.Landing_navbar {
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(248, 176, 143); */
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    background: rgb(247, 192, 167);
+    background: linear-gradient(90deg, rgba(247, 192, 167, 1) 0%, rgba(255, 151, 104, 1) 100%);
+}
+
+.Landing_logo {
+    font-size: 25px;
+}
+
+#Landing_searchBar {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 20em;
+    height: 2em;
+    background: none;
+    padding: 15px;
+    color: black;
+    margin-left: 250px;
+}
+
+#Landing_searchBar::placeholder {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.Landing_links {
+    color: rgb(0, 7, 62);
+    text-decoration: none;
+    font-size: 20px;
+    /* border-bottom: 2px solid rgb(23, 23, 23); */
+}
+
+.Landing_links:hover {
+    color: rgb(99, 95, 92);
+}
+
+.Landing_navCont {
+    display: flex;
+    gap: 2rem;
+}
+
+.Landing_visitLink {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+#touristNavigate {
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    border: 2px solid black;
+    background-color: rgb(242, 122, 36);
+    padding: 9px;
+    border-radius: 30px;
+}
+
+
+
+.Landing_getStarted {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5 linear;
+    background: transparent;
+}
+
+.Landing_getStarted:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 144, 79);
+    color: white;
+    cursor: pointer;
+}

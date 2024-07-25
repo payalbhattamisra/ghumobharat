@@ -1,0 +1,110 @@
+footer{
+    padding: 9vw;
+    /* background: rgb(6,0,66);
+    background: rgb(4,13,51);
+    background: -moz-linear-gradient(90deg, rgba(4,13,51,1) 0%, rgba(0,28,83,1) 52%, rgba(6,2,48,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(4,13,51,1) 0%, rgba(0,28,83,1) 52%, rgba(6,2,48,1) 100%);
+    background: linear-gradient(90deg, rgba(4,13,51,1) 0%, rgba(0,28,83,1) 52%, rgba(6,2,48,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#040d33",endColorstr="#060230",GradientType=1); */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    /* background: rgb(39,0,51);
+    background: linear-gradient(3deg, rgba(39,0,51,1) 0%, rgba(22,0,23,1) 100%); */
+    background: #130713;
+
+}
+
+footer .footer-col{
+    padding: 40px;
+}
+footer h3{
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover{
+    color: #fff;
+}
+
+footer p{
+    color: #7b838a;
+}
+
+footer .subscribe{
+    margin-top: 20px;
+}
+
+footer input{
+    width: 220px;
+    height: 50px;
+    padding: 15px 12px;
+    background: #e86924;
+    color: #000000;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+footer input::placeholder{
+    color: black;
+}
+footer .subscribe a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 15px 12px;
+    background-color: aliceblue;
+    font-weight: 600;
+
+}
+
+footer .subscribe a.yellow{
+    color: white;
+    background: rgb(212, 117, 44);
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow:hover{
+    color: rgb(212, 117, 44);
+    background:white;
+}
+
+footer .copyright{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright .pro-links{
+    font-size: 2rem;
+}
+
+footer .copyright .pro-links i{
+    margin-right: 15px;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+footer .copyright .pro-links i:hover{
+    color: #d4d4d4;
+    font-size: 1.9rem;
+}

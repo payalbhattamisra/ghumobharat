@@ -1,0 +1,59 @@
+#wildlife a {
+    text-decoration: none;
+    color: #292f2f;
+}
+
+#wildlife span {
+    color: rgb(250, 96, 0);
+}
+
+#wildlife {
+    padding: 3vw 8vw 2vw 8vw;
+
+}
+
+#wildlife h1 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.WLCont {
+    display: flex;
+    gap: 40px;
+}
+
+.WLBox {
+    height: 20vw;
+    width: 30vw;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease;
+}
+
+.WLBox .row {
+    height: 100%;
+}
+
+.row img {
+    height: 100%;
+}
+
+.WLBox .layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(7, 219, 42));
+    transition: transform 0.5s;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.WLBox .layer .btn:hover {
+    background-color: rgb(0, 150, 18);
+    border: 1px solid rgb(0, 150, 18);
+}
+
+.WLBox .layer p {
+    padding: 30px 0 40px 20px;
+    color: #fafafa;
+    font-family: 'Lumanosimo', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}

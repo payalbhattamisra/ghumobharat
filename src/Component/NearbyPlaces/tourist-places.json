@@ -1,0 +1,61 @@
+{
+    "places": [
+      {
+        "place_name": "Maitri Bagh Zoo",
+        "details": {
+          "description": "Maitri Bagh is a popular zoo and park in Bhilai, housing various animals and offering a serene environment for visitors.",
+          "distance": "Located within Bhilai",
+          "ratings": 4.5
+        }
+      },
+      {
+        "place_name": "Deobalod",
+        "details": {
+          "description": "Deobalod is a scenic spot near Bhilai, known for its lush greenery and peaceful surroundings.",
+          "distance": "Approximately 30 kilometers from Bhilai",
+          "ratings": 4.0
+        }
+      },
+      {
+        "place_name": "Dhamdha",
+        "details": {
+          "description": "Dhamdha is a historic site with ancient ruins and temples, attracting history enthusiasts.",
+          "distance": "Around 40 kilometers from Bhilai",
+          "ratings": 3.8
+        }
+      },
+      {
+        "place_name": "Bambleshwari Temple, Dongargarh",
+        "details": {
+          "description": "The Bambleshwari Temple atop a hill in Dongargarh is dedicated to Goddess Durga and offers scenic views.",
+          "distance": "Approximately 80 kilometers from Bhilai",
+          "ratings": 4.2
+        }
+      },
+      {
+        "place_name": "Sirpur",
+        "details": {
+          "description": "Sirpur is an ancient town with archaeological sites reflecting Buddhist, Hindu, and Jain cultures.",
+          "distance": "Around 90 kilometers from Bhilai",
+          "ratings": 4.1
+        }
+      },
+      {
+        "place_name": "Tandula Dam",
+        "details": {
+          "description": "Tandula Dam is a picturesque spot offering boating facilities and scenic views for visitors.",
+          "distance": "Located about 50 kilometers from Bhilai",
+          "ratings": 4.0
+        }
+      },
+      {
+        "place_name": "Chitrakoot Falls",
+        "details": {
+          "description": "Chitrakoot Falls, known as the 'Niagara Falls of India,' offers breathtaking natural beauty.",
+          "distance": "Approximately 200 kilometers from Bhilai",
+          "ratings": 4.7
+        }
+      }
+    ]
+  }
+  

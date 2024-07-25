@@ -1,0 +1,41 @@
+.rankdata{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1em;
+    padding-top: 10vh;
+    background-color: rgb(252, 220, 183);
+}
+#tabletitle{
+    font-size: 40px;
+}
+.tablehead{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: underline;
+    padding-bottom: 2vh;
+}
+.tablebody{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 3vh;
+
+}
+.tablerow{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+column-gap: 5vw;
+}
+a{
+    text-decoration: none;
+}
+

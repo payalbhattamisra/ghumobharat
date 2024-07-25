@@ -1,0 +1,112 @@
+{
+  "Gulmarg Gondola": {
+    "Medical Shops": [
+      {
+        "Shop Name": "Maqbool shah medical store.",
+        "Closing Time": "Closes at 8 pm",
+        "Website": "https://maqbool-shah-medical-store.business.site/?utm_source=gmb&utm_medium=referral",
+        "Location": "Tangmarg, Jammu and Kashmir 193402"
+      }
+    ],
+    "Grocery": [
+      {
+        "Shop Name": "First Choice Departmental Store.",
+        "Closing Time": "Closes at 8:30pm.",
+        "Website": "https://first-choice-departmental-store.business.site/?utm_source=gmb&utm_medium=referral",
+        "Location": "Chandilora Tangmarg Tangmarg, Gulmarg, Jammu and Kashmir 193402"
+      }
+    ],
+    "Shopping Malls": [
+      {
+        "Name": "Mohammadia Shopping Complex",
+        "Closing Time": "Closes at 7pm",
+        "Website": "N.A",
+        "Location": "Srinagar - Gulmarg Rd, Kunzer, Jammu and Kashmir 193401"
+      }
+    ],
+    "Food Stalls": [
+      {
+        "Name": "Miasa Cafe",
+        "Closing Time": "Closes at 8pm",
+        "Website": "N.A",
+        "Location": "29XJ+86V, Gulmarg, Jammu and Kashmir 193403"
+      }
+    ],
+    "Famous Sports": [
+      {
+        "Sports Name": "Gulmarg Snow Sports",
+        "Timing": "Open 24 hours",
+        "Website": "N.A",
+        "Location": "Near, Hotel Khyber Rd, Gulmarg, Forest Block, Jammu and Kashmir 193403"
+      }
+    ]
+  },
+  "Alpather Lake": {
+    "Medical Shops": [
+      {
+        "Shop Name": "Health Care Baramulla",
+        "Closing Time": "Open 24 hours",
+        "Website": "https://health-care-baramulla.ueniweb.com/?utm_campaign=gmb",
+        "Location": "Qazipora, Tangmarg, Jammu and Kashmir 193402"
+      }
+    ],
+    "Grocery": [
+      {
+        "Shop Name": "Beigh General Store.",
+        "Closing Time": "Open 24 hours",
+        "Website": "N.A",
+        "Location": "Gulmarg Road,Gulmarg,Forest Block,Jammu and Kashmir 193403"
+      }
+    ],
+    "Shopping Malls": [
+      {
+        "Name": "Takyabal Shopping Lane",
+        "Closing Time": "Closes at 9pm",
+        "Website": "N.A",
+        "Location": "7FQF+6VW, Sopore - Bandipora Rd, Maharaj Pora, Sopore, Jammu and Kashmir 193201"
+      }
+    ],
+    "Food Stalls": [
+      {
+        "Name": "As-saffiyah Triple F cafe",
+        "Closing Time": "Closes at 10pm",
+        "Website": "N.A",
+        "Location": "Shop no 5, Khursheed complex, GMC road, Kanth Bagh, kanthbagh, Baramulla, Jammu and Kashmir 193101"
+      }
+    ],
+    "Famous Sports": [
+      {
+        "Sports Name": "Gulmarg Snow Sports",
+        "Timing": "Open 24 hours",
+        "Website": "N.A",
+        "Location": "Near, Hotel Khyber Rd, Gulmarg, Forest Block, Jammu and Kashmir 193403"
+      }
+    ]
+  },
+  "Apharwat Peak": {
+    "Medical Shops": [
+      {
+        "Shop Name": "Mountain Health Pharmacy",
+        "Closing Time": "Closes at 9 pm",
+        "Website": "https://mountain-health-pharmacy.example.com",
+        "Location": "Srinagar - Gulmarg Rd, Gulmarg, Jammu and Kashmir 193403"
+      }
+    ],
+    "Gift Shops": [
+      {
+        "Shop Name": "Snowy Souvenirs",
+        "Closing Time": "Closes at 6 pm",
+        "Website": "N.A",
+        "Location": "Near Gondola, Gulmarg, Jammu and Kashmir 193403"
+      }
+    ],
+    "Adventure Gear": [
+      {
+        "Shop Name": "Extreme Expeditions",
+        "Closing Time": "Closes at 7 pm",
+        "Website": "https://extreme-expeditions-gulmarg.example.com",
+        "Location": "Gulmarg, Jammu and Kashmir 193403"
+      }
+    ]
+  }
+}

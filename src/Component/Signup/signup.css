@@ -1,0 +1,50 @@
+
+.signupSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    margin: auto;
+    margin-top: 20vh;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    width: 30vw;
+    padding: 5em;
+}
+
+.signUpform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+   
+}
+.signUpform input{
+    width: 15rem;
+    height: 2.3rem;
+    padding: 0.7em;
+
+}
+.signUpform button{
+    width: 5rem;
+    height: 1.5rem;
+    background:transparent;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 3px;
+}
+.signUpform button:hover{
+    transform: scale(1.05);
+   }
+   #signupMessage{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 9999; 
+  }

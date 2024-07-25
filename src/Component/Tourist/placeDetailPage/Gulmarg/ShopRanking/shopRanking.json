@@ -1,0 +1,120 @@
+{
+  "shops": [
+    {
+      "name": "Snowflake Emporium",
+      "rating": 4.8
+    },
+    {
+      "name": "Glacier Goods",
+      "rating": 3.5
+    },
+    {
+      "name": "Mountain Treasures",
+      "rating": 2.9
+    },
+    {
+      "name": "Alpine Artifacts",
+      "rating": 4.1
+    },
+    {
+      "name": "Peak Plaza Gifts",
+      "rating": 3.7
+    },
+    {
+      "name": "Frosty Finds",
+      "rating": 5
+    },
+    {
+      "name": "Ski Station Souvenirs",
+      "rating": 4.4
+    },
+    {
+      "name": "Himalayan Handicrafts",
+      "rating": 3.2
+    },
+    {
+      "name": "Snowflake Trinkets",
+      "rating": 4.6
+    },
+    {
+      "name": "Slope-side Shoppe",
+      "rating": 2.5
+    },
+    {
+      "name": "Powder Peak Presents",
+      "rating": 4.9
+    },
+    {
+      "name": "Firn Fair",
+      "rating": 3.8
+    },
+    {
+      "name": "Ski Chalet Crafts",
+      "rating": 2.7
+    },
+    {
+      "name": "Mogul Market",
+      "rating": 4.3
+    },
+    {
+      "name": "Snowbound Souvenirs",
+      "rating": 5
+    },
+    {
+      "name": "Icefall Keepsakes",
+      "rating": 3.4
+    },
+    {
+      "name": "Avalanche Artistry",
+      "rating": 4.2
+    },
+    {
+      "name": "Peak Provisions",
+      "rating": 2.8
+    },
+    {
+      "name": "Glade Gifts",
+      "rating": 4.7
+    },
+    {
+      "name": "Summit Souvenirs",
+      "rating": 3.9
+    },
+    {
+      "name": "Ski Lodge Crafts",
+      "rating": 4.5
+    },
+    {
+      "name": "Snowscape Treasures",
+      "rating": 3.7
+    },
+    {
+      "name": "Alpenglow Artifacts",
+      "rating": 4.6
+    },
+    {
+      "name": "Ski Trail Trinkets",
+      "rating": 4.1
+    },
+    {
+      "name": "Crest Crafts",
+      "rating": 3.8
+    },
+    {
+      "name": "Glacier Gallery",
+      "rating": 4.8
+    },
+    {
+      "name": "Powderhound Presents",
+      "rating": 3.9
+    },
+    {
+      "name": "Slope Style Souvenirs",
+      "rating": 4.5
+    },
+    {
+      "name": "Alpine Arts & Crafts",
+      "rating": 4.7
+    }
+  ]
+}

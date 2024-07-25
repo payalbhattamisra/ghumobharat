@@ -1,0 +1,100 @@
+/* .touristFirstPage{
+   background: url(../../../public/photoGallery/monument.jpg);
+width: 100%;
+height: 100vh;
+border: 2px solid red;
+} */
+
+.navbarT {
+  position: absolute;
+  top: 0px;
+  opacity: 0.7;
+}
+.bannerT {
+  width: 100vw;
+  height: 100vh;
+  background: url(../../../public/photoGallery/Tourist/mountains.svg);
+  background-size: 100%;
+}
+.overlayT {
+  height: 100vh;
+}
+.eclipseT {
+  position: sticky;
+  top: 10vh;
+  left: 10vw;
+  z-index: -2;
+}
+.birdT {
+  position: absolute;
+  top: 20vh;
+  left: 25vw;
+  animation: hoverBird 1.5s ease-in-out infinite alternate;
+}
+@keyframes hoverBird {
+  0% {
+    transform: translateY(0); 
+  }
+  100% {
+    transform: translateY(-10px); 
+  }
+}
+.skyT {
+  position: absolute;
+  z-index: -20;
+  width: 100%;
+}
+.cloudT{
+  position: absolute;
+  top: 30vh;
+  left: 0vw;
+  opacity: 0.8;
+  z-index: -1;
+  animation: moveLeftToRight 20s linear infinite;
+}
+@keyframes moveLeftToRight {
+ 0%,100%{
+    transform: translateX(0vw);
+  }
+  50%{
+    transform: translateX(70vw); 
+  }
+}
+.exploreT {
+  position: absolute;
+  top: 40vh;
+  left: 15vw;
+  font-family: "Texturina", serif;
+}
+
+#sp1 {
+  font-size: 5em;
+  line-height: 100px;
+  font-weight: 600;
+}
+#sp2 {
+  font-size: 2em;
+  color: var(--Secondary, #846551);
+}
+.footerT{
+  position: relative;
+
+
+}
+.footerImg1T{
+  width: 100%;
+  position: relative;
+  top: 5px;
+
+}
+.footerImg2T{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+
+}
+.footercontT{
+  background: #130713;
+  padding-bottom: 40px;
+  z-index: 30;
+}

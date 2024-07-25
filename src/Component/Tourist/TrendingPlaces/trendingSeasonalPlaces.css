@@ -1,0 +1,139 @@
+#tsp_trendIndia a {
+    text-decoration: none;
+}
+
+#tsp_trendIndia {
+    margin-top: 8vh;
+    padding: 2vw 8vw 2vw 8vw;
+
+}
+
+#tsp_trendIndia h1 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#tsp_trendIndia .tsp_trendCont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 30px;
+    gap: 1.5vw;
+}
+
+#tsp_trendIndia .tsp_trendCont .tsp_trendBox {
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15); */
+    transition: all 0.5s ease;
+}
+
+/* Common for all box layer */
+
+.tsp_headBox {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2vw;
+}
+
+.tsp_headBox .tsp_btn {
+    color: rgb(0, 0, 0);
+    border: 1px solid gray;
+    border-radius: 20px;
+    z-index: 1;
+    transition: transform 300ms ease-in-out;
+    position: relative;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.tsp_headBox .tsp_btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 20px;
+    background-color: rgb(255, 136, 0);
+
+    transition: transform 0.3s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.tsp_headBox .tsp_btn:hover::before,
+.tsp_headBox .tsp_btn:focus::before {
+    transform: scaleX(1);
+}
+
+.tsp_headBox .tsp_btn:hover,
+.tsp_headBox .tsp_btn:focus {
+    /* background: rgb(255, 89, 0); */
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+/* Common Layering */
+
+.tsp_row {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+    height: 65%;
+    --bs-gutter-x: 0;
+}
+
+.tsp_row img {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.tsp_layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(48, 48, 48));
+    position: absolute;
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: height 0.5s;
+}
+
+.tsp_layer .tsp_btn {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.tsp_layer .tsp_btn:hover {
+    background-color: rgb(255, 136, 0);
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+.tsp_row:hover img {
+    transform: scale(1.1);
+}
+
+.tsp_row:hover .tsp_layer {
+    height: 100%;
+    border-radius: 0;
+}
+
+.tsp_offerContent {
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}

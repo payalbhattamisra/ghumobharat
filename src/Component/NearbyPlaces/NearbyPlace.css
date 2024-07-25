@@ -1,0 +1,26 @@
+.nplace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 80px;
+}
+.nplacelist{
+    display: flex;
+    list-style-type: none;
+    gap: 3vw;
+
+}
+.nplacelist li{
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 20px;
+}
+.detailList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2em;
+
+}

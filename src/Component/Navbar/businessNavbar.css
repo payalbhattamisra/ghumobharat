@@ -1,0 +1,165 @@
+.navbarB {
+    width: 100vw;
+    height: 60px;
+    background: rgb(252, 179, 145);
+    background: linear-gradient(90deg, rgb(241, 172, 140) 0%, rgba(255, 151, 104, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoB {
+
+    font-size: 25px;
+}
+
+#searchBarB {
+    border: 2px solid rgba(0, 0, 0, 0.553);
+    border-radius: 30px;
+    width: 20em;
+    height: 2em;
+    background: none;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
+
+#searchBarB::placeholder {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.linksB {
+    color: rgb(5, 0, 17);
+    text-decoration: none;
+    font-size: 1.5em;
+    /* border-bottom: 2px solid rgb(23, 23, 23); */
+}
+
+.menuB .linksB:hover {
+    color: rgb(255, 255, 255);
+    /* transform: scale(1.05); */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.linksB:hover {
+    color: rgba(234, 234, 234, 0.86);
+
+
+}
+
+.navContB {
+    display: flex;
+    gap: 2rem;
+}
+
+.visitLinkB {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+    font-size: 13px;
+}
+
+.connectUsB {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.getStartedB {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5 linear;
+    background: transparent;
+}
+
+.getStartedB:hover {
+    transform: scale(1.05);
+    background-color: rgba(222, 80, 10, 0.856);
+    color: white;
+    cursor: pointer;
+}
+
+.burger-menuB {
+    padding-left: 15px;
+    height: 50%;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-barB {
+    width: 2.5em;
+    height: 0.4em;
+    background-color: rgb(201, 93, 30);
+    border-radius: 0.5em;
+}
+
+.menuB {
+    width: 20%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(239, 156, 115, 0.916);
+    opacity: 0.95;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.menuB .linksB {
+    padding: 20px;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-barB.clicked:nth-child(1) {
+    /* transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+*/
+    transform: scale(1.1);
+    background-color: rgb(240, 113, 62);
+
+}
+
+.burger-barB.clicked:nth-child(2) {
+    /* transform: scale(0.1);
+    transition: ease-out 0.5s; */
+    transform: scale(1.1);
+    background-color: rgba(215, 94, 7, 0.848);
+
+}
+
+.burger-barB.clicked:nth-child(3) {
+    /* transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s; */
+    transform: scale(1.1);
+    background-color: rgb(187, 60, 18);
+
+}
+
+/* unclicked */
+.burger-barB.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}

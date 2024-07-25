@@ -1,0 +1,161 @@
+.navbar {
+    width: 100vw;
+    height: 60px;
+    background: rgb(247, 192, 167);
+    background: linear-gradient(90deg, rgb(248, 214, 198) 0%, rgb(251, 186, 155) 100%);
+    /* position: fixed;
+    top: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+#searchBar {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 20em;
+    height: 2em;
+    background: none;
+    padding: 15px;
+    color: black;
+}
+
+#searchBar::placeholder {
+    text-align: center;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+.links {
+    color: rgb(0, 7, 62);
+    text-decoration: none;
+    font-size: 1.5em;
+    /* border-bottom: 2px solid rgb(23, 23, 23); */
+}
+
+.menu .links:hover {
+    color: rgb(110, 110, 110);
+    /* transform: scale(1.05); */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.links:hover {
+    color: rgb(255, 64, 0);
+}
+
+.navCont {
+    display: flex;
+    gap: 2rem;
+}
+
+.visitLink {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+    font-size: 13px;
+}
+
+.connectUs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.getStarted {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5 linear;
+    background: transparent;
+}
+
+.getStarted:hover {
+    transform: scale(1.05);
+    background-color: rgb(255, 64, 0);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.burger-menu {
+    padding-left: 15px;
+    height: 50%;
+    width: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.burger-bar {
+    width: 2.5em;
+    height: 0.4em;
+    background-color: rgb(0, 31, 27);
+    border-radius: 0.5em;
+}
+
+.menu {
+    width: 20%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 160, 129);
+    opacity: 0.95;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.menu .links {
+    padding: 20px;
+}
+
+/* ------------- sliding menu ------------------ */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: inherit;
+}
+
+/* ----- animations--------- */
+/* clicked */
+.burger-bar.clicked:nth-child(1) {
+    /* transform: rotate(45deg) translate(0.75em, 1.25em);
+    transition: ease-out 0.5s;
+*/
+    transform: scale(1.1);
+    background-color: rgb(255, 64, 0);
+
+}
+
+.burger-bar.clicked:nth-child(2) {
+    /* transform: scale(0.1);
+    transition: ease-out 0.5s; */
+    transform: scale(1.1);
+    background-color: rgb(255, 64, 0);
+
+}
+
+.burger-bar.clicked:nth-child(3) {
+    /* transform: rotate(135deg) translate(-0.5em, 1em);
+    transition: ease-out 0.5s; */
+    transform: scale(1.1);
+    background-color: rgb(255, 64, 0);
+
+}
+
+/* unclicked */
+.burger-bar.unclicked {
+    transform: rotate(0) translate(0);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+}

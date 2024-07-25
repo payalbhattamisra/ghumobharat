@@ -1,0 +1,185 @@
+
+.gulmargInfo{
+
+    overflow-x: hidden;
+}
+/* .gulImages{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+} */
+.gulImage{
+width: 100vw;
+height: 65vh;
+opacity: 0.45;
+}
+
+
+/* .navigationButtons{
+    display: flex;
+    gap: 15px;
+}
+.cntrlBtn{
+ padding: 10px;
+ border: 2px solid black;
+ border-radius: 20px;
+}
+
+.cntrlBtn:hover{
+    transform: scale(1.02);
+    background-color: rgb(77, 218, 250);
+    font-weight: 800;
+} */
+.gulmargAbout{
+    padding-top: 5vh;
+    font-size: 2em;
+    padding: 2em;
+    background-color: rgb(249, 255, 252);
+}
+
+
+/* branding------------------------------------------ */
+.branding{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    position: absolute;
+    top: 20vh;
+    padding-left: 5vw;
+  
+}
+
+.gulmargAboutHead{
+font-size: 2.5em;
+text-shadow: -10px -3px 10px rgb(172, 172, 172);
+
+}
+.gulmargAboutHead strong{
+    font-size: 1.3em;
+    color: rgb(255, 119, 0);
+}
+    /* ------------------data */
+    .data{
+        display: flex;
+        gap: 11vw;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .shopr{
+        border: 3px solid black;
+        padding: 5px;
+        border-radius: 30px;
+        position: relative;
+        left: 45vw;
+        bottom: 15vh;
+    }
+.numVisit{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3em;
+    gap: 2vh;
+}
+.numVisit  span strong{
+    font-size: 3em;
+}
+#touristNumber{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+#ratings{
+    font-size: 5em;
+    font-weight: 600;
+}
+.elfsight-app-61c8d34d-5024-4032-96dc-d4c62fe4b095{
+  opacity: 0.8;
+
+}
+.locData{
+    font-size: 1.5em;
+    font-weight: 800;
+    align-self: center;
+    position: relative;
+    bottom: 20px;
+}
+
+
+#custom{
+text-decoration: none;
+position: relative;
+left: 38vw;
+text-decoration: none;
+font-size: 1.5em;
+border: 3px solid black;
+padding: 5px;
+border-radius: 30px;
+background-color: rgb(205, 205, 205);
+color: black;
+opacity: 0.6;
+}
+#custom:hover{
+    transform: scale(1.2);
+}
+
+/* ------------------------------------------------ */
+.insightGulmarg{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+
+}
+.insightPics{
+    height: 90vh;
+    width: 700px;
+  
+    position: absolute;
+    right: 200px;
+    overflow-x: hidden;
+}
+#rightIndGirl{
+    height: 90vh;
+    
+    position: absolute;
+    left: -300px;
+    overflow-x: hidden;
+}
+
+.gulmargVid {
+    height: 700px;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+  .part1{
+    display: flex;
+    gap: 10vw;
+    padding: 5vw;
+  }
+  .part1 span{
+    font-family: 'Texturina', serif;
+    font-weight: 500;
+
+  }
+.rev{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .publicReview{
+    display: flex;
+   
+  }
+  #revHead{
+    font-weight: 700;
+    font-size: 2em;
+  }
+  #qs{
+   width: 300px;
+   height: 30px;
+  }

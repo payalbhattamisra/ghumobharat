@@ -1,0 +1,67 @@
+
+.secondpageB {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+  }
+  .secondpageB span{
+      width: 50%;
+      font-size: 5em;
+      position: relative;
+      left: 200px;
+      line-height: 80px;
+      /* text-shadow: -8px -3px 7px rgb(116, 235, 219); */
+  }
+  #girlchill{
+      width: 70%;
+      height: 80vh;
+      animation: sizechange 10s infinite linear;
+  }
+  @keyframes sizechange {
+      0%{
+          transform:rotate(0deg);
+      }
+      25%{
+          transform: rotate(10deg);
+      }
+      50%{
+          transform: rotate(0deg);
+      }
+      75%{
+          transform: rotate(-10deg);
+  
+      }
+      100%{
+          transform: rotate(0deg)
+      }
+  }
+  /* thirdpage----------------- */
+  .thirdpageB{
+      
+  
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 100px;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+  }
+  .thirdpageB span{
+      font-size: 5em;
+  }
+  #thinkman{
+      height: 80vh;
+      width: 35vw;
+      animation: sizechange 10s infinite linear;
+  }
+
+  .benifitdetails{
+display: flex;
+flex-direction: column;
+padding: 30px;
+position: relative;
+bottom: 70px;
+font-size: 30px;
+gap: 30px;
+  }

@@ -1,0 +1,54 @@
+#adventure a {
+    text-decoration: none;
+}
+
+#adventure span {
+    color: rgb(250, 96, 0);
+}
+
+#adventure {
+    padding: 1vw 8vw 2vw 8vw;
+}
+
+#adventure h1 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.advCont {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.advBox {
+    height: 20vw;
+    width: 30vw;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.15);
+    transition: all 0.5s ease;
+}
+
+.advBox .row {
+    height: 100%;
+}
+
+.advBox .layer {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgb(58, 83, 226));
+    transition: transform 0.5s;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.advBox .layer .btn:hover {
+    background-color: rgb(8, 35, 185);
+    border: 1px solid rgb(8, 35, 185);
+}
+
+.advBox .layer p {
+    padding: 30px 0 40px 20px;
+    color: #fafafa;
+    font-family: 'Lumanosimo', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}

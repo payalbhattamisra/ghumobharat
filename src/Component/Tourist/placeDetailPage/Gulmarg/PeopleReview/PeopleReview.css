@@ -1,0 +1,25 @@
+.reviewSys{
+    margin: 50px;
+ width: 30vw;
+ height: 80vh;
+ gap: 10px;
+ padding-right: 200px;
+ padding-left: 20px;
+ /* background: url(../../../../../../public/photoGallery/blog.png); */
+background-color: grey;
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.userimg{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+}
+.headR{
+font-size: 2em;
+}
+.reviewU{
+font-size: 1.5em;
+}
